@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace BaseGameLogic
+namespace BaseGameLogic.TriggerAreas
 {
     [DisallowMultipleComponent, RequireComponent(typeof(CircleCollider2D))]
     public sealed class CircleTriggerArea : TriggerArea

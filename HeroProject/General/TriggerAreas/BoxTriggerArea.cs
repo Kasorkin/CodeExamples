@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace BaseGameLogic
+namespace BaseGameLogic.TriggerAreas
 {
     [DisallowMultipleComponent, RequireComponent(typeof(BoxCollider2D))]
     public sealed class BoxTriggerArea : TriggerArea

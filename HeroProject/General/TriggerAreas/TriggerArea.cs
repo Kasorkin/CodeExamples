@@ -1,9 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
-namespace BaseGameLogic
+namespace BaseGameLogic.TriggerAreas
 {
     public abstract class TriggerArea : MonoBehaviour
     {
