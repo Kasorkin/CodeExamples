@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872987ab663c5604e93c384dd8de849c, type: 3}
+  m_Name: IceArmorSO
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 0}
+  _influence:
+    _fractionsOfInfluence: 0
+    _unitTypeInInfluence: 0
+  _abilityTags:
+    _ownTag: {fileID: 0}
+    _cancelAbilityWithTag: []
+    _blockAbilityWithTag: []
+    _refreshAbilityWithTag: []
+  _data:
+    PercentHP: 25
+    cooldown: {fileID: 11400000, guid: d94ccbc840e00af4aacea0206e72e9a1, type: 2}
+    levelsData:
+    - duration: 10
+    - duration: 11
+    - duration: 12
+    - duration: 13
+    - duration: 14
+    - duration: 15
+    - duration: 16
+    - duration: 17
+    - duration: 18
